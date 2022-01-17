@@ -2,3 +2,99 @@
   font-family: "Alex Brush";
   src: url("../../../dist/fonts/AlexBrush.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Allura";
+  src: url("../../../dist/fonts/Allura.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Amatic";
+  src: url("../../../dist/fonts/Amatic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Chunk Five";
+  src: url("../../../dist/fonts/ChunkFive.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cicle";
+  src: url("../../../dist/fonts/Cicle.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Colaborate";
+  src: url("../../../dist/fonts/Colaborate.otf") format("opentype");
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url("../../../dist/fonts/Comfortaa.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Concert One";
+  src: url("../../../dist/fonts/ConcertOne.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Dekar";
+  src: url("../../../dist/fonts/Dekar.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Exo";
+  src: url("../../../dist/fonts/Exo.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../../../dist/fonts/FiraSans.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("../../../dist/fonts/KaushanScript.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../../../dist/fonts/Lato.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("../../../dist/fonts/Lobster.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Molot";
+  src: url("../../../dist/fonts/Molot.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Mukta";
+  src: url("../../../dist/fonts/Mukta.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Oleo Script";
+  src: url("../../../dist/fonts/OleoScript.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../../dist/fonts/OpenSans.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url("../../../dist/fonts/Pacifico.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../../../dist/fonts/PlayfairDisplay.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../../../dist/fonts/PTSans.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url("../../../dist/fonts/Quicksand.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../../dist/fonts/Roboto.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../../../dist/fonts/Rubik.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../../../dist/fonts/SourceSansPro.ttf") format("truetype");
+}

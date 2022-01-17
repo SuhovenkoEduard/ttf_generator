@@ -1,8 +1,10 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
-import { FONTS_FILENAMES_PATH, FONTS_JSON, GOOGLE_FONTS_LINKS_PATH } from './constants';
+import {
+  FONTS_CSS, FONTS_FILENAMES_PATH, FONTS_JSON, GOOGLE_FONTS_LINKS_PATH,
+} from './constants';
 import { generateFontsFromFile } from './fontsGenerators';
-import { writeOutputJson } from './fileWriters';
+import { writeOutputCss, writeOutputJson } from './fileWriters';
 import { loadFontsLinksDictionary } from './helpers/loaders';
 
 const fileNames = JSON.parse(fs.readFileSync(FONTS_FILENAMES_PATH).toString());
@@ -42,7 +44,7 @@ const linkedFonts = await Promise.all(fonts.map(async (font) => {
   return linkedFont;
 }));
 
-// writeOutputCss(FONTS_CSS, sliceOfFonts);
+writeOutputCss(FONTS_CSS, linkedFonts);
 writeOutputJson(FONTS_JSON, linkedFonts);
 // console.log(sliceOfFonts);
 
