@@ -1,46 +1,53 @@
-export const getTypeOfExtension = (extension) => (extension === 'ttf' ? 'truetype' : 'opentype');
+export const getFileFormatByExtension = (extension) => (extension === 'ttf' ? 'truetype' : 'opentype');
 
 export const getFileData = (fileName) => {
   const words = fileName.split('.');
   const [name, extension] = words;
-  return [name, extension, getTypeOfExtension(extension)];
+  return [name, extension, getFileFormatByExtension(extension)];
 };
 
-export const fillFileUrl = (name, extension) => (
-  `../../../dist/fonts/${name}.${extension}`
+export const fillUrl = (path) => (
+  `url("${path}")`
 );
 
-export const fillFileSrc = (fileName) => {
-  const [name, extension, type] = getFileData(fileName);
-  return `src: url("${fillFileUrl(name, extension)}") format("${type}");`;
+export const fillFileFormat = (format) => (
+  `format("${format}")`
+);
+
+export const fillFilePath = (dirName, fileName, extension) => (
+  `../../../dist/fonts/${dirName}/${fileName}.${extension}`
+);
+
+export const fillFileSrc = (dirName, fullFileName) => {
+  const [fileName, extension, format] = getFileData(fullFileName);
+  return `${fillUrl(fillFilePath(dirName, fileName, extension))} ${fillFileFormat(format)}`;
 };
 
-export const fillExternalSrc = (url) => `src: url("${url}");`;
+export const fillExternalSrc = (url) => `${fillUrl(url)}`;
 
-export const fillRegularFontCssTemplate = (fontName, src) => `@font-face {
+export const fontCssFillers = {
+  regular: (fontName, src) => `@font-face {
   font-family: "${fontName}";
-  ${src}
+  src: ${src};
 }
-`;
-
-export const fillItalicFontCssTemplate = (fontName, src) => `@font-face {
+`,
+  italic: (fontName, src) => `@font-face {
   font-family: "${fontName}";
   font-style: italic;
-  ${src}
+  src: ${src};
 }
-`;
-
-export const fillBoldFontCssTemplate = (fontName, src) => `@font-face {
+`,
+  bold: (fontName, src) => `@font-face {
   font-family: "${fontName}";
   font-weight: bold;
-  ${src}
+  src: ${src};
 }
-`;
-
-export const fillItalicBoldFontCssTemplate = (fontName, src) => `@font-face {
+`,
+  italicBold: (fontName, src) => `@font-face {
   font-family: "${fontName}";
   font-style: italic;
   font-weight: bold;
-  ${src}
+  src: ${src};
 }
-`;
+`,
+};

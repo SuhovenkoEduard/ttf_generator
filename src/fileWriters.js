@@ -1,11 +1,9 @@
 import fs from 'fs';
 import {
-  fillBoldFontCssTemplate,
   fillExternalSrc,
-  fillFileSrc, fillItalicBoldFontCssTemplate,
-  fillItalicFontCssTemplate,
-  fillRegularFontCssTemplate,
+  fillFileSrc, fontCssFillers,
 } from './helpers/fillers';
+import { convertFontNameToDirName } from './helpers/converters';
 
 export const writeOutputCss = (outputCssPath, fonts) => {
   if (fs.existsSync(outputCssPath)) {
@@ -15,24 +13,31 @@ export const writeOutputCss = (outputCssPath, fonts) => {
   }
   fonts.forEach(({ fontName, fontTypes }) => {
     const {
-      regular, ital, bold, italBold,
+      regular, italic, bold, italicBold,
     } = fontTypes;
-    const { fileName: regularFileName, link: regularLink } = regular;
-    const { fileName: italFileName = regularFileName, link: italLink } = ital;
-    const { fileName: boldFileName = regularFileName, link: boldLink } = bold;
-    const { fileName: italBoldFileName = regularFileName, link: italBoldLink } = italBold;
+    const dirName = convertFontNameToDirName(fontName);
+    const { fileName: regularFileName } = regular;
+    const { fileName: italFileName = '' } = italic;
+    const { fileName: boldFileName = '' } = bold;
+    const { fileName: italBoldFileName = '' } = italicBold;
 
-    const regularSrc = regularLink ? fillExternalSrc(regularLink) : fillFileSrc(regularFileName);
-    const italSrc = italLink ? fillExternalSrc(italLink) : fillFileSrc(italFileName);
-    const boldSrc = boldLink ? fillExternalSrc(boldLink) : fillFileSrc(boldFileName);
-    const italBoldSrc = italBoldLink
-      ? fillExternalSrc(italBoldLink) : fillFileSrc(italBoldFileName);
+    const regularSrc = regularFileName ? fillFileSrc(dirName, regularFileName) : '';
+    const italicSrc = italFileName ? fillFileSrc(dirName, italFileName) : '';
+    const boldSrc = boldFileName ? fillFileSrc(dirName, boldFileName) : '';
+    const italicBoldSrc = italBoldFileName ? fillFileSrc(dirName, italBoldFileName) : '';
 
-    //fs.appendFileSync(outputCssPath, `/* fontName: ${fontName} */\r\n`);
-    fs.appendFileSync(outputCssPath, fillRegularFontCssTemplate(fontName, fillFileSrc(regularFileName)));
-    //fs.appendFileSync(outputCssPath, fillItalicFontCssTemplate(fontName, italSrc));
-    //fs.appendFileSync(outputCssPath, fillBoldFontCssTemplate(fontName, boldSrc));
-    //fs.appendFileSync(outputCssPath, fillItalicBoldFontCssTemplate(fontName, italBoldSrc));
+    const srcs = {
+      regular: regularSrc,
+      italic: italicSrc || regularSrc,
+      bold: boldSrc || regularSrc,
+      italicBold: italicBoldSrc || boldSrc || italicSrc || regularSrc,
+    };
+
+    const sequences = [
+      `/* fontName: ${fontName} */\r\n`,
+      ...Object.entries(srcs).map(([fontType, fontSrc]) => (fontSrc ? fontCssFillers[fontType](fontName, fontSrc) : '')),
+    ];
+    sequences.forEach((sequence) => fs.appendFileSync(outputCssPath, sequence));
   });
 };
 

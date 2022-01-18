@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { convertLinkFontNameToFontName } from './converters';
 
-export const loadFontsLinksDictionary = (fontsLinksPath) => {
+export const loadFontsBaseLinksDictionary = (fontsLinksPath) => {
   const links = fs.readFileSync(fontsLinksPath)
     .toString()
     .split('\r\n')
