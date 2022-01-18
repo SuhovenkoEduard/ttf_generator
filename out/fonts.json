@@ -66,11 +66,11 @@
     "fontName": "Colaborate",
     "fontTypes": {
       "regular": {
-        "fileName": "Colaborate-Regular.otf"
+        "fileName": "Colaborate-Regular.ttf"
       },
       "italic": {},
       "bold": {
-        "fileName": "Colaborate-Bold.otf"
+        "fileName": "Colaborate-Bold.ttf"
       },
       "italicBold": {}
     }
@@ -103,7 +103,7 @@
     "fontName": "Dekar",
     "fontTypes": {
       "regular": {
-        "fileName": "Dekar-Regular.otf"
+        "fileName": "Dekar-Regular.ttf"
       },
       "italic": {},
       "bold": {},
@@ -286,16 +286,16 @@
     "fontName": "Quicksand",
     "fontTypes": {
       "regular": {
-        "fileName": "Quicksand-Regular.otf"
+        "fileName": "Quicksand-Regular.ttf"
       },
       "italic": {
-        "fileName": "Quicksand-Italic.otf"
+        "fileName": "Quicksand-Italic.ttf"
       },
       "bold": {
-        "fileName": "Quicksand-Bold.otf"
+        "fileName": "Quicksand-Bold.ttf"
       },
       "italicBold": {
-        "fileName": "Quicksand-ItalicBold.otf"
+        "fileName": "Quicksand-ItalicBold.ttf"
       }
     }
   },

@@ -1,15 +1,19 @@
 /* fontName: Alex Brush */
 @font-face {
   font-family: "Alex Brush";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/AlexBrush/AlexBrush-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Alex Brush";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/AlexBrush/AlexBrush-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Alex Brush";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/AlexBrush/AlexBrush-Regular.ttf") format("truetype");
 }
@@ -22,15 +26,19 @@
 /* fontName: Allura */
 @font-face {
   font-family: "Allura";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Allura/Allura-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Allura";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Allura/Allura-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Allura";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Allura/Allura-Regular.ttf") format("truetype");
 }
@@ -43,15 +51,19 @@
 /* fontName: Amatic */
 @font-face {
   font-family: "Amatic";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Amatic/Amatic-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amatic";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Amatic/Amatic-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amatic";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Amatic/Amatic-Bold.ttf") format("truetype");
 }
@@ -64,15 +76,19 @@
 /* fontName: Chunk Five */
 @font-face {
   font-family: "Chunk Five";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/ChunkFive/ChunkFive-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Chunk Five";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/ChunkFive/ChunkFive-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Chunk Five";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/ChunkFive/ChunkFive-Regular.ttf") format("truetype");
 }
@@ -85,15 +101,19 @@
 /* fontName: Cicle */
 @font-face {
   font-family: "Cicle";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Cicle/Cicle-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Cicle";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Cicle/Cicle-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Cicle";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Cicle/Cicle-Bold.ttf") format("truetype");
 }
@@ -106,36 +126,44 @@
 /* fontName: Colaborate */
 @font-face {
   font-family: "Colaborate";
-  src: url("../../../dist/fonts/Colaborate/Colaborate-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../dist/fonts/Colaborate/Colaborate-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Colaborate";
   font-style: italic;
-  src: url("../../../dist/fonts/Colaborate/Colaborate-Regular.otf") format("opentype");
+  font-weight: normal;
+  src: url("../../../dist/fonts/Colaborate/Colaborate-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Colaborate";
+  font-style: normal;
   font-weight: bold;
-  src: url("../../../dist/fonts/Colaborate/Colaborate-Bold.otf") format("opentype");
+  src: url("../../../dist/fonts/Colaborate/Colaborate-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Colaborate";
   font-style: italic;
   font-weight: bold;
-  src: url("../../../dist/fonts/Colaborate/Colaborate-Bold.otf") format("opentype");
+  src: url("../../../dist/fonts/Colaborate/Colaborate-Bold.ttf") format("truetype");
 }
 /* fontName: Comfortaa */
 @font-face {
   font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Comfortaa";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Comfortaa";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
 }
@@ -148,15 +176,19 @@
 /* fontName: Concert One */
 @font-face {
   font-family: "Concert One";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/ConcertOne/ConcertOne-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Concert One";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/ConcertOne/ConcertOne-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Concert One";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/ConcertOne/ConcertOne-Regular.ttf") format("truetype");
 }
@@ -169,36 +201,44 @@
 /* fontName: Dekar */
 @font-face {
   font-family: "Dekar";
-  src: url("../../../dist/fonts/Dekar/Dekar-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../dist/fonts/Dekar/Dekar-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Dekar";
   font-style: italic;
-  src: url("../../../dist/fonts/Dekar/Dekar-Regular.otf") format("opentype");
+  font-weight: normal;
+  src: url("../../../dist/fonts/Dekar/Dekar-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Dekar";
+  font-style: normal;
   font-weight: bold;
-  src: url("../../../dist/fonts/Dekar/Dekar-Regular.otf") format("opentype");
+  src: url("../../../dist/fonts/Dekar/Dekar-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Dekar";
   font-style: italic;
   font-weight: bold;
-  src: url("../../../dist/fonts/Dekar/Dekar-Regular.otf") format("opentype");
+  src: url("../../../dist/fonts/Dekar/Dekar-Regular.ttf") format("truetype");
 }
 /* fontName: Exo */
 @font-face {
   font-family: "Exo";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Exo/Exo-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Exo";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Exo/Exo-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Exo";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Exo/Exo-Bold.ttf") format("truetype");
 }
@@ -211,15 +251,19 @@
 /* fontName: Fira Sans */
 @font-face {
   font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/FiraSans/FiraSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Fira Sans";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/FiraSans/FiraSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Fira Sans";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/FiraSans/FiraSans-Bold.ttf") format("truetype");
 }
@@ -232,15 +276,19 @@
 /* fontName: Kaushan Script */
 @font-face {
   font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/KaushanScript/KaushanScript-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Kaushan Script";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/KaushanScript/KaushanScript-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Kaushan Script";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/KaushanScript/KaushanScript-Regular.ttf") format("truetype");
 }
@@ -253,15 +301,19 @@
 /* fontName: Lato */
 @font-face {
   font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Lato/Lato-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lato";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Lato/Lato-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lato";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Lato/Lato-Bold.ttf") format("truetype");
 }
@@ -274,15 +326,19 @@
 /* fontName: Lobster */
 @font-face {
   font-family: "Lobster";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lobster";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lobster";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
 }
@@ -295,15 +351,19 @@
 /* fontName: Molot */
 @font-face {
   font-family: "Molot";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Molot/Molot-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Molot";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Molot/Molot-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Molot";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Molot/Molot-Regular.ttf") format("truetype");
 }
@@ -316,15 +376,19 @@
 /* fontName: Mukta */
 @font-face {
   font-family: "Mukta";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Mukta/Mukta-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Mukta";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Mukta/Mukta-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Mukta";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Mukta/Mukta-Bold.ttf") format("truetype");
 }
@@ -337,15 +401,19 @@
 /* fontName: Oleo Script */
 @font-face {
   font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/OleoScript/OleoScript-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Oleo Script";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/OleoScript/OleoScript-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Oleo Script";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/OleoScript/OleoScript-Bold.ttf") format("truetype");
 }
@@ -358,15 +426,19 @@
 /* fontName: Open Sans */
 @font-face {
   font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Open Sans";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
 }
@@ -379,15 +451,19 @@
 /* fontName: Pacifico */
 @font-face {
   font-family: "Pacifico";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Pacifico";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Pacifico";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
 }
@@ -400,15 +476,19 @@
 /* fontName: Playfair Display */
 @font-face {
   font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Playfair Display";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Playfair Display";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf") format("truetype");
 }
@@ -421,15 +501,19 @@
 /* fontName: PT Sans */
 @font-face {
   font-family: "PT Sans";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/PTSans/PTSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "PT Sans";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/PTSans/PTSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "PT Sans";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/PTSans/PTSans-Bold.ttf") format("truetype");
 }
@@ -442,36 +526,44 @@
 /* fontName: Quicksand */
 @font-face {
   font-family: "Quicksand";
-  src: url("../../../dist/fonts/Quicksand/Quicksand-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../../dist/fonts/Quicksand/Quicksand-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-style: italic;
-  src: url("../../../dist/fonts/Quicksand/Quicksand-Italic.otf") format("opentype");
+  font-weight: normal;
+  src: url("../../../dist/fonts/Quicksand/Quicksand-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
+  font-style: normal;
   font-weight: bold;
-  src: url("../../../dist/fonts/Quicksand/Quicksand-Bold.otf") format("opentype");
+  src: url("../../../dist/fonts/Quicksand/Quicksand-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Quicksand";
   font-style: italic;
   font-weight: bold;
-  src: url("../../../dist/fonts/Quicksand/Quicksand-ItalicBold.otf") format("opentype");
+  src: url("../../../dist/fonts/Quicksand/Quicksand-ItalicBold.ttf") format("truetype");
 }
 /* fontName: Roboto */
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Roboto/Roboto-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Roboto/Roboto-Bold.ttf") format("truetype");
 }
@@ -484,15 +576,19 @@
 /* fontName: Rubik */
 @font-face {
   font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Rubik";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/Rubik/Rubik-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Rubik";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/Rubik/Rubik-Bold.ttf") format("truetype");
 }
@@ -505,15 +601,19 @@
 /* fontName: Source Sans Pro */
 @font-face {
   font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
   src: url("../../../dist/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Source Sans Pro";
   font-style: italic;
+  font-weight: normal;
   src: url("../../../dist/fonts/SourceSansPro/SourceSansPro-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: "Source Sans Pro";
+  font-style: normal;
   font-weight: bold;
   src: url("../../../dist/fonts/SourceSansPro/SourceSansPro-Bold.ttf") format("truetype");
 }

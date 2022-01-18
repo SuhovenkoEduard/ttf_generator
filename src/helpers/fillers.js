@@ -28,17 +28,21 @@ export const fillExternalSrc = (url) => `${fillUrl(url)}`;
 export const fontCssFillers = {
   regular: (fontName, src) => `@font-face {
   font-family: "${fontName}";
+  font-style: normal;
+  font-weight: normal;
   src: ${src};
 }
 `,
   italic: (fontName, src) => `@font-face {
   font-family: "${fontName}";
   font-style: italic;
+  font-weight: normal;
   src: ${src};
 }
 `,
   bold: (fontName, src) => `@font-face {
   font-family: "${fontName}";
+  font-style: normal;
   font-weight: bold;
   src: ${src};
 }
